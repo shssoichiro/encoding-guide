@@ -1,0 +1,14 @@
+[book]
+authors = ["Josh Holmer"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Encoding in Depth"
+
+[rust]
+edition = "2021"
+
+[output.html]
+default-theme = "dark"
+preferred-dark-theme = "ayu" # uguu
+mathjax-support = true
