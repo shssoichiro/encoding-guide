@@ -10,5 +10,8 @@ edition = "2021"
 
 [output.html]
 default-theme = "dark"
-preferred-dark-theme = "ayu" # uguu
+# uguu
+preferred-dark-theme = "ayu"
 mathjax-support = true
+git-repository-url = "https://github.com/shssoichiro/encoding-guide"
+edit-url-template = "https://github.com/shssoichiro/encoding-guide/edit/main/{path}"
