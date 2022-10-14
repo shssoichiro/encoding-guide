@@ -1,6 +1,6 @@
 # Getting Started
 
-This guide is intended to serve as a deep dive into video and audio encoding for amateurs.
+This guide is intended to serve as a deep dive into video and audio encoding for amateurs/enthusiasts.
 The beginning parts of the guide assume that you have little previous experience with video encoding.
 The deeper parts of the guide build upon the earlier parts--advanced users may feel more comfortable skipping forward in the guide.
 
