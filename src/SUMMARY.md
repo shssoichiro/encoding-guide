@@ -28,7 +28,7 @@
   - [Anti-aliasing](./filtering/antialiasing.md)
   - [Chroma Problems](./filtering/chroma_help.md)
   - [Tonemapping](./filtering/tonemapping.md)
-- [AV1 In Depth](./05_av1.md)
+- [AV1 In Depth](./av1.md)
 
-[Colors Quick References](./99_color_ref.md)
-[License](./99_license.md)
+[Colors Quick References](./color_ref.md)
+[License](./license.md)
