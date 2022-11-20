@@ -30,5 +30,5 @@
   - [Tonemapping](./filtering/tonemapping.md)
 - [AV1 In Depth](./av1.md)
 
-[Colors Quick References](./color_ref.md)
+[Colors Quick Reference](./color_ref.md)
 [License](./license.md)
