@@ -15,7 +15,7 @@ allowing the creation of better and better formats, this guide will only cover t
 
 ### H.264
 
-H.264 has been around for almost 20 years now, and has remained the most popular video format throughout most of this period. Until recently with the rise in popularity of HDR, it has been used by the vast majority of streaming services and on Blu-ray discs, as well as by many digital video cameras, and is still extremely common today. It is also extremely popular among hobbyist encoders due to the presence of x264, which is a highly advanced, fast, free and open-source encoder for the H.264 format.
+H.264 has been around for almost 20 years now, and has remained the most popular video format throughout most of this period. Until recently with the rise in popularity of HDR, it has been the primary format used by streaming services and on Blu-ray discs, as well as by many digital video cameras, and is still extremely common today. It is also extremely popular among hobbyist encoders due to the presence of x264, which is a highly advanced, fast, free and open-source encoder for the H.264 format.
 
 ### H.265
 
@@ -31,12 +31,12 @@ AV1 is the successor to VP9, and is the joint work of many major companies. Like
 
 ## Lossless Encoding
 
-TODO
+Unlike lossy encoding, lossless encoding is a type of encoding where the output is exactly identical to the input. The reason why one might do this is to apply filtering such as resizing, debanding, tonemapping, etc. to a video prior to lossy encoding. This could be encoded directly to lossy in one step, but sometimes the addition of a lossless encoding step makes more sense either from a workflow standpoint or from an encoding performance standpoint.
 
 ### H.264
 
-TODO
+x264 is capable of encoding videos losslessly, and it is quite good at it. Generally, this is going to be one of the best options for lossless video encoding, as it is fast, compresses well, and has support for 10-bit encoding. Given that using a slower preset does not increase quality, but only reduces filesize, and that lossless files are often used only as intermediates or temporary files, it is common to use an x264 preset such as veryfast for lossless.
 
 ### FFv1
 
-TODO
+FFv1 is a lossless codec included with the encoding tool ffmpeg. It is solely intended for lossless encoding, and can losslessly store up to 16-bit video. However, it does not compress as well as H.264 and tends to be slower at both encoding and decoding, particularly if using a fast x264 preset.

@@ -8,8 +8,6 @@ much of the advice here will still apply similarly.)
 
 ## Lossy Encoding
 
-TODO
-
 ### AAC
 
 TODO
@@ -18,9 +16,13 @@ TODO
 
 TODO
 
-## Lossless Encoding
+### Opus
 
 TODO
+
+## Lossless Encoding
+
+The use of lossless encoding is a bit more common with audio, due to the fact that a losslessly encoded audio track is relatively small compared to a losslessly encoded video track. The distribution of lossless audio is still relatively rare, but it will occasionally be seen, whereas it is incredibly rare for lossless video to be distributed.
 
 ### FLAC
 
