@@ -12,6 +12,7 @@
   - [Advanced: av1an](./compression/av1an.md)
 - [Color Management](./colors.md)
   - [Color Models](./colors/models.md)
+  - [Color Range](./colors/range.md)
   - [Color Primaries](./colors/primaries.md)
   - [Matrix Coefficients](./colors/matrix.md)
   - [Transfer Functions](./colors/transfer.md)

@@ -1,6 +1,6 @@
 # Color Models
 
-A color model is a method of representing colors in a video or image using data. This guide will be covering the most widely used color models.
+A color model, sometimes referred to as a colorspace, is a method of representing colors in a video or image using data. This guide will be covering the most widely used color models.
 
 ## RGB
 
