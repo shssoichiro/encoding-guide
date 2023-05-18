@@ -12,6 +12,10 @@ This transfer function is used in the following standards:
 - Rec. ITU-R BT.1361-0 conventional
   colour gamut system (historical)
 
+### 2: Unspecified
+
+This value indicates that no transfer function is set for the video, and the player must decide which value to use.
+
 ### 4: BT.470M
 
 BT.470M is a standard that was used in analog television systems in the United States. This transfer represents a power function with a gamma of 2.2.

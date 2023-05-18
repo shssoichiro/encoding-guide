@@ -26,6 +26,10 @@ This matrix coefficient setting is used in the following standards:
 - IEC 61966-2-4 xvYCC709
 - SMPTE RP 177 (1993) Annex B
 
+### 2: Unspecified
+
+This value indicates that no color matrix is set for the video, and the player must decide which value to use.
+
 ### 4: BT.470M
 
 BT.470M is a standard that was used in analog television systems in the United States.
