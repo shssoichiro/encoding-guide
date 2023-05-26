@@ -61,8 +61,8 @@ Putting elementary streams into a container.
 
 #### Codec
 A codec (**co**der/**dec**oder) is the piece of code that actually
-encodes the data you put in. It takes in and produces an elementary
-stream.
+encodes the data you put in. It takes as input and produces as output
+an elementary stream.
 
 #### Filter
 A filter is a piece of code you can apply to the data to
