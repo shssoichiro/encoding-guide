@@ -1,6 +1,7 @@
 # Video Filtering
 
 - [Intro to Vapoursynth](./filtering/intro.md)
+- [Intro to the FFmpeg command-line utilities](./filtering/intro_ffmpeg.md)
 - [Source Filters](./filtering/sourcing.md)
 - [Bit Depths and Color Formats](./filtering/colors.md)
 - [Cropping and Resizing](./filtering/resizing.md)
