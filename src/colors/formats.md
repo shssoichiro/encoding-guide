@@ -102,7 +102,7 @@ recording your desktop, and 4:2:0 subsampling in most other cases.
 | `YUV444P8`                     | `yuv444p`                                                                   | luma, chroma blue, chroma red, 8 bits per component, planar, no subsampling                           |
 | `YUV420P10`                    | `yuv420p10le`, `yuv420p10le`                                                | luma, chroma blue, chroma red, 10 bits per component, planar, 4:2:0 subsampling                       |
 | `YUV422P10`                    | `yuv422p10le`, `yuv422p10le`                                                | luma, chroma blue, chroma red, 10 bits per component, planar, 4:2:2 subsampling                       |
-| `YUV444P10`                    | `yuv444p10le`, `yuv444p10le`                                                | luma, chroma blue, chroma red, 10 bits per component, planar, no subsampling                       |
+| `YUV444P10`                    | `yuv444p10le`, `yuv444p10le`                                                | luma, chroma blue, chroma red, 10 bits per component, planar, no subsampling                          |
 
 ## References
 [^vlc-wiki-yuv]: [YUV - VideoLAN Wiki](https://wiki.videolan.org/YUV/#Packed_formats)
