@@ -1,6 +1,7 @@
 # Video Filtering
 
 - [Intro to Vapoursynth](./filtering/intro.md)
+- [Source Filters](./filtering/sourcing.md)
 - [Bit Depths and Color Formats](./filtering/colors.md)
 - [Cropping and Resizing](./filtering/resizing.md)
 - [Interlacing, Telecine, and Combing](./filtering/ivtc.md)
