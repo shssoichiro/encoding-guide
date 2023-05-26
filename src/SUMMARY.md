@@ -19,6 +19,7 @@
   - [HDR](./colors/hdr.md)
 - [Video Filtering](./filtering.md)
   - [Intro to Vapoursynth](./filtering/intro.md)
+  - [Intro to the FFmpeg command-line utilities](./filtering/intro_ffmpeg.md)
   - [Bit Depths and Color Formats](./filtering/colors.md)
   - [Cropping and Resizing](./filtering/resizing.md)
   - [Interlacing, Telecine, and Combing](./filtering/ivtc.md)
