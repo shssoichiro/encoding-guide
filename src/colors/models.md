@@ -1,7 +1,7 @@
 <!-- TODO: expand on alpha -->
 # Color Models
 
-A color model, sometimes referred to as a colorspace, is a method of
+A color model is a method of
 representing colors in a video or image using data. This guide will be
 covering the most widely used color models.
 
@@ -10,7 +10,7 @@ covering the most widely used color models.
 RGB is probably the most well-known color model, and is primarily used
 in image encoding. RGB consists of three color channels, Red, Green,
 and Blue, which are then combined to determine the final color of each
-pixel. Typically, RGB is the final colorspace that a monitor or TV
+pixel. Typically, RGB is the final model that a monitor or TV
 will use to display images, although it is not commonly used for video
 encoding.
 
