@@ -4,7 +4,7 @@ This section enters the first of three settings that are important for retaining
 
 Color primaries are used to indicate the correct coordinates for the red, blue, and green colors. There are historical reasons for [why so many standards exist](https://xkcd.com/927/), and this guide will not go in depth into history lessons, but will explain what primaries are available and when to use each one.
 
-Note that for primaries, matrices, and transfer, you can view the values that are set on a video using a tool like [MediaInfo](https://mediaarea.net/en/MediaInfo). If there are no values set, the safe default assumption for most modern videos is BT.709.
+Note that for primaries, matrices, and transfer, you can view the values that are set on a video using a tool like [MediaInfo](https://mediaarea.net/en/MediaInfo). If there are no values set, the renderer will need to guess which values to use. A safe default assumption for most modern videos is BT.709, although this may vary depending on source and resolution for the video. It is strongly preferred to set the correct values when encoding.
 
 Each setting has at least one name and exactly one integer value representing it--most encoder softwares will accept one or more of the names, but some tooling such as Vapoursynth and MKVToolnix accepts the integer values instead.
 
