@@ -30,6 +30,16 @@ This matrix coefficient setting is used in the following standards:
 
 This value indicates that no color matrix is set for the video, and the player must decide which value to use.
 
+mpv will use the following heuristics in this case:
+
+```
+if width >= 1280 || height > 576 {
+    "BT.709"
+} else {
+    "SMPTE 170M"
+}
+```
+
 ### 4: BT.470M
 
 BT.470M is a standard that was used in analog television systems in the United States.

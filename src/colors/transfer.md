@@ -16,6 +16,8 @@ This transfer function is used in the following standards:
 
 This value indicates that no transfer function is set for the video, and the player must decide which value to use.
 
+mpv will always assume BT.1886 in this case.
+
 ### 4: BT.470M
 
 BT.470M is a standard that was used in analog television systems in the United States. This transfer represents a power function with a gamma of 2.2.

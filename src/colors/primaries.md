@@ -26,6 +26,24 @@ This color primary setting is used in the following standards:
 
 This value indicates that no color primary is set for the video, and the player must decide which value to use.
 
+mpv will use the following heuristics in this case:
+
+```
+if matrix == "BT.2020" {
+    "BT.2020"
+} else if matrix == "BT.709" {
+    "BT.709"
+} else if width >= 1280 || height > 576 {
+    "BT.709"
+} else if height == 576 {
+    "BT.470BG"
+} else if height == 480 || height == 488 {
+    "SMPTE 170M"
+} else {
+    "BT.709"
+}
+```
+
 ### 4: BT.470M
 
 BT.470M is a standard that was used in analog television systems in the United States.
