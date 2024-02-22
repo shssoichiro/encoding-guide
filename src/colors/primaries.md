@@ -68,8 +68,9 @@ These color primaries are used in the following standards:
 - Rec. ITU-R BT.1358-0 625 (historical)
 - Rec. ITU-R BT.1700-0 625 PAL and 625 SECAM
 
-The color primaries specified by BT.601 for 625-line video are ([1](https://en.wikipedia.org/w/index.php?title=Standard_illuminant&oldid=1207711650), [2](https://www.itu.int/dms_pubrec/itu-r/rec/bt/R-REC-BT.601-7-201103-I!!PDF-E.pdf):
+The color primaries specified by BT.601 for 625-line video are ([1](https://en.wikipedia.org/w/index.php?title=Standard_illuminant&oldid=1207711650), [2](https://www.itu.int/dms_pubrec/itu-r/rec/bt/R-REC-BT.601-7-201103-I!!PDF-E.pdf)):
 |   | R    | G    | B    | White point (D65) |
+|---|------|------|------|-------------------|
 | x | 0.64 | 0.29 | 0.15 | 0.31272           |
 | y | 0.33 | 0.6  | 0.06 | 0.32903           |
 
@@ -86,6 +87,13 @@ These color primaries are used in the following standards:
   color television
 - United States Federal Communications Commission
   (2003) Title 47 Code of Federal Regulations 73.682 (a) (20)
+
+The color primaries specified by BT.470-6 for System M are ([1](https://www.itu.int/dms_pubrec/itu-r/rec/bt/R-REC-BT.470-6-199811-S!!PDF-E.pdf))):
+
+|   | R    | G    | B    | White point (C) |
+|---|------|------|------|-----------------|
+| x | 0.67 | 0.21 | 0.14 | 0.310           |
+| y | 0.33 | 0.71 | 0.08 | 0.316           |
 
 ### Film
 
